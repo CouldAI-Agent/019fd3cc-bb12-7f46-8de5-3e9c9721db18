@@ -8,6 +8,7 @@ const List<Product> mockProducts = [
     price: 1899.99,
     category: 'Electrónica',
     imageUrl: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 15.00,
   ),
   Product(
     id: '2',
@@ -16,6 +17,7 @@ const List<Product> mockProducts = [
     price: 299.50,
     category: 'Mobiliario',
     imageUrl: 'https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 25.00,
   ),
   Product(
     id: '3',
@@ -24,6 +26,7 @@ const List<Product> mockProducts = [
     price: 249.99,
     category: 'Accesorios',
     imageUrl: 'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 5.00,
   ),
   Product(
     id: '4',
@@ -32,6 +35,7 @@ const List<Product> mockProducts = [
     price: 549.00,
     category: 'Electrónica',
     imageUrl: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 35.00,
   ),
   Product(
     id: '5',
@@ -40,6 +44,7 @@ const List<Product> mockProducts = [
     price: 129.99,
     category: 'Accesorios',
     imageUrl: 'https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 8.50,
   ),
   Product(
     id: '6',
@@ -48,5 +53,6 @@ const List<Product> mockProducts = [
     price: 450.00,
     category: 'Mobiliario',
     imageUrl: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=600&auto=format&fit=crop',
+    shippingCost: 50.00,
   ),
 ];
