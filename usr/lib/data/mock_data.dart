@@ -1,0 +1,52 @@
+import '../models/product.dart';
+
+const List<Product> mockProducts = [
+  Product(
+    id: '1',
+    name: 'Laptop Pro X15',
+    description: 'Portátil de alto rendimiento con procesador de última generación, 32GB de RAM y 1TB SSD. Ideal para profesionales y creadores de contenido.',
+    price: 1899.99,
+    category: 'Electrónica',
+    imageUrl: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=600&auto=format&fit=crop',
+  ),
+  Product(
+    id: '2',
+    name: 'Silla Ergonómica Premium',
+    description: 'Silla de oficina con soporte lumbar ajustable, malla transpirable y reposacabezas en 3D. Diseñada para jornadas de más de 8 horas.',
+    price: 299.50,
+    category: 'Mobiliario',
+    imageUrl: 'https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=600&auto=format&fit=crop',
+  ),
+  Product(
+    id: '3',
+    name: 'Auriculares Inalámbricos Noise-Cancelling',
+    description: 'Auriculares circumaurales con cancelación activa de ruido líder en la industria, hasta 30 horas de batería y sonido envolvente.',
+    price: 249.99,
+    category: 'Accesorios',
+    imageUrl: 'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=600&auto=format&fit=crop',
+  ),
+  Product(
+    id: '4',
+    name: 'Monitor UltraWide 34"',
+    description: 'Monitor curvo ultrapanorámico con resolución WQHD (3440 x 1440), 144Hz y panel IPS para colores precisos y vibrantes.',
+    price: 549.00,
+    category: 'Electrónica',
+    imageUrl: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=600&auto=format&fit=crop',
+  ),
+  Product(
+    id: '5',
+    name: 'Teclado Mecánico Inalámbrico',
+    description: 'Teclado compacto 75% con switches táctiles intercambiables, iluminación RGB personalizable y conectividad Bluetooth/2.4GHz.',
+    price: 129.99,
+    category: 'Accesorios',
+    imageUrl: 'https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=600&auto=format&fit=crop',
+  ),
+  Product(
+    id: '6',
+    name: 'Mesa de Escritorio Ajustable',
+    description: 'Escritorio motorizado con ajuste de altura para trabajar sentado o de pie. Superficie de bambú sostenible de 140x70cm.',
+    price: 450.00,
+    category: 'Mobiliario',
+    imageUrl: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=600&auto=format&fit=crop',
+  ),
+];
